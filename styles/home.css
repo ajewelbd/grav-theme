@@ -1,0 +1,409 @@
+.hero {
+	height: 831px;
+	width: 100%;
+	background-color: #fff;
+	background-image: url(../assets/hero.png);
+	background-position: center/cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.hero-image {
+	height: inherit;
+	width: inherit;
+	opacity: .6;
+}
+
+.hero-content {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text {
+	gap: 24px
+}
+
+.hero-heading {
+	line-height: 90px;
+	font-size: 72px;
+	font-weight: 700;
+	color: #fff;
+	width: max-content;
+	text-align: center;
+}
+
+.hero-heading span {
+	color: var(--higlighted-color);
+}
+
+.hero-details {
+	width: 1075px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+.hero-btn {
+	margin-top: 20px;
+	background-color: var(--higlighted-color);
+	padding: 16px 28px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	gap: 12px
+}
+
+.hero-btn p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.hero-btn img {
+	width: 24px;
+	height: 24px;
+}
+
+.about {
+	margin: 77px 100px;
+	padding: 0 32px;
+	gap: 96px;
+}
+
+.text-content {
+	width: 50%;
+}
+
+.about-title {
+	color: var(--higlighted-color);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 28px;
+	margin-bottom: 12px;
+}
+
+.about-heading {
+	width: 570px;
+	color: var(--primary-text-color);
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 44px;
+	word-wrap: break-word;
+	margin-bottom: 42px;
+}
+
+.about-details {
+	width: 570px;
+	color: var(--primary-text-color);
+	font-size: 18px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	word-wrap: break-word
+}
+
+.img-content {
+	width: 50%;
+	background-image: url(../assets/about-us.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.pricing {
+	margin: 100px 80px 143px;
+	gap: 42px;
+}
+
+.pricing-heading {
+	color: var(--higlighted-color);
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 38px;
+}
+
+.pricing-table {
+	grid-template-columns: 472px 472px 472px;
+}
+
+.pricing-card {
+	padding: 32px 32px 48px;
+	border: 1px solid #666;
+}
+
+.pricing-card:nth-child(2), .pricing-card:nth-child(3) {
+	border-left: unset;
+}
+
+.pricing-title {
+	color: var(--higlighted-color);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-bottom: 24px;
+}
+
+.pricing-value {
+	color: var(--higlighted-color);
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 72px;
+	margin-bottom: 16px;
+}
+
+.pricing-value span {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.pricing-trial-duration {
+	color: var(--primary-text-color);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.pricing-features {
+	row-gap: 16px;
+	margin: 32px 0;
+}
+
+.pricing-feature {
+	column-gap: 12px;
+}
+
+.pricing-feature img {
+	width: 28px;
+	height: 28px;
+}
+
+.pricing-feature p {
+	width: 322px;
+	color: var(--primary-text-color);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	word-wrap: break-word;
+}
+
+.pricing-btn {
+	width: 100%;
+	margin-top: 48px;
+	padding: 20px 40px;
+	border: 1px solid #000;
+	background-color: var(--bg-color);
+	color: var(--primary-text-color);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.hero {
+		height: 450px;
+	}
+
+	.hearo-headings {
+		row-gap: 24px;
+	}
+
+	.hero-heading {
+		line-height: 16px;
+		font-size: 22px;
+		width: max-content;
+	}
+	
+	.hero-details {
+		width: 100%;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.hero-btn {
+		padding: 10px 18px;
+	}
+	
+	.hero-btn p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.about {
+		margin: 77px 0;
+		padding: 0 32px;
+		row-gap: 0;
+		flex-direction: column;
+	}
+	
+	.text-content {
+		width: 100%;
+	}
+	
+	.about-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	
+	.about-heading {
+		width: 100%;
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 24px;
+	}
+	
+	.about-details {
+		width: 100%;
+		font-size: 14px;
+		text-align: justify;
+	}
+	
+	.img-content {
+		width: 100%;
+		height: 511px;
+	}
+
+	.pricing {
+		padding: 0 32px;
+	}
+	
+	.pricing-table {
+		grid-template-columns: 345px;
+		row-gap: 32px;
+	}
+
+	.pricing-card {
+		padding: 16px;
+		border: 1px solid #666 !important;
+	}
+
+	.pricing-feature p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+
+	.pricing-feature img {
+		width: 24px;
+		height: 24px;
+	}
+	
+	.pricing-btn {
+		width: 100%;
+		margin-top: 28px;
+		padding: 12px 24px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	
+	.hero {
+		height: 550px;
+	}
+
+	.hearo-headings {
+		row-gap: 28px;
+	}
+
+	.hero-heading {
+		line-height: 28px;
+		font-size: 36px;
+		width: max-content;
+	}
+	
+	.hero-details {
+		width: 100%;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.hero-btn {
+		padding: 12px 20px;
+	}
+	
+	.hero-btn p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.about {
+		margin: 77px 14px;
+		padding: 0 32px;
+		row-gap: 50px;
+		flex-direction: column;
+	}
+	
+	.text-content {
+		width: 100%;
+	}
+	
+	.about-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	
+	.about-heading {
+		width: 100%;
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 24px;
+	}
+	
+	.about-details {
+		width: 100%;
+		font-size: 16px;
+		text-align: justify;
+	}
+	
+	.img-content {
+		width: 100%;
+		height: 511px;
+	}
+
+	.pricing {
+		padding: 0 32px;
+		margin: 200px 0 150px;
+	}
+	
+	.pricing-table {
+		grid-template-columns: 530px;
+		row-gap: 32px;
+	}
+
+	.pricing-card {
+		padding: 32px;
+		border: 1px solid #666 !important;
+	}
+
+	.pricing-feature p {
+		font-size: 18px;
+		line-height: 24px;
+		width: 100%;
+	}
+
+	.pricing-feature img {
+		width: 24px;
+		height: 24px;
+	}
+	
+	.pricing-btn {
+		width: 100%;
+		margin-top: 28px;
+		padding: 12px 24px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

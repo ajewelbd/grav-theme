@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    background-color: #fff;
+	font-family: 'Inter';
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Variables */
+
+:root {
+	--bg-color: #fff;
+	--primary-text-color: #000;
+	--higlighted-color: #ef2c34;
+}
+
+/* Common Classes */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-items: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+/* End of Common Classes */
+
+.nav {
+    background-color: #000;
+    padding: 24px 80px 24px 80px;
+}
+
+.nav-links {
+	gap: 58px;
+}
+
+.nav-link {
+	line-height: 24px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+}
+
+footer p {
+	width: 100%;
+	padding: 41px 0;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	word-wrap: break-word;
+}
+
+
+.mobile-menu {
+	display: none;
+}
+
+.menu-checkbox {
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	height: 50px;
+	width: 50px;
+	display: flex;
+}
+
+.menu-icon {
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	background-image: url("../assets/menu-icon.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.mobile-menus {
+	width: 150px;
+	height: calc(100dvh - 112px);
+	background-color: #000;
+	row-gap: 10px;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 112px;
+	padding: 40px 32px;
+	display: none;
+	transform-origin: 0% 0%;
+  	transform: translate(-100%, 0);
+	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.mobile-menus a {
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+	transition-delay: 2s;
+}
+
+.menu-checkbox:checked ~ .mobile-menus {
+	display: flex;
+	transform: none;
+}
+
+.menu-checkbox:checked ~ .menu-icon {
+	background-image: url("../assets/cancel.png");
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.nav {
+		padding-left: 24px;
+		justify-content: start;
+		gap: 32px;
+	}
+
+	.mobile-menu {
+		display: block;
+		width: 48px;
+		height: 48px;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	footer p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.nav {
+		padding-left: 55px;
+	}
+
+	.mobile-menu {
+		display: block;
+		width: 48px;
+		height: 48px;
+	}
+
+	.nav-links {
+		display: none;
+	}
+}
