@@ -1,0 +1,27 @@
+1704305878
+a:2:{s:7:"content";s:1252:"<pre><code>{{ 
+"&lt;section class="hero"&gt;
+    &lt;img src="assets/overlay.png" class="hero-image" alt="Hero Image" /&gt;
+    &lt;div class="hero-content"&gt;
+        &lt;div class="hero-text flex flex-col items-center"&gt;
+            &lt;div class="flex flex-col items-center hearo-headings"&gt;
+                &lt;h1 class="hero-heading"&gt;
+                    Master Your &lt;span class="higlighted-text"&gt;Money:&lt;/span&gt;Empowering
+                &lt;/h1&gt;
+                &lt;h1 class="hero-heading"&gt;
+                    Your &lt;span class="higlighted-text"&gt;Financial&lt;/span&gt;Journey
+                &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;p class="hero-details"&gt;
+                Our objective is to provide a user-friendly platform that delivers
+                real-time data, advanced analytics, and predictive tools for
+                well-informed investments.
+            &lt;/p&gt;
+            &lt;button type="button" class="flex hero-btn items-center"&gt;
+                &lt;p&gt;TRY IT NOW&lt;/p&gt;
+                &lt;img src="assets/circle-right-arrow.png" alt="Circle Right Arrow" /&gt;
+            &lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+"|raw }}</code></pre>";s:12:"content_meta";N;}

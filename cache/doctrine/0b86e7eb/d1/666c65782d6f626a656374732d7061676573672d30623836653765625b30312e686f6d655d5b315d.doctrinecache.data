@@ -1,0 +1,175 @@
+1703704588
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:1:{s:5:"title";s:4:"Home";}s:11:"frontmatter";s:11:"title: Home";s:8:"markdown";s:9170:"<section class="hero">
+    <img src="./user/themes/decor/images/overlay.png" class="hero-image" alt="Hero Image" />
+    <div class="hero-content">
+        <div class="hero-text flex flex-col items-center">
+            <div class="flex flex-col items-center hearo-headings">
+                <h1 class="hero-heading">
+                    Master Your <span class="higlighted-text">Money:</span>Empowering
+                </h1>
+                <h1 class="hero-heading">
+                    Your <span class="higlighted-text">Financial</span>Journey
+                </h1>
+            </div>
+            <p class="hero-details">
+                Our objective is to provide a user-friendly platform that delivers
+                real-time data, advanced analytics, and predictive tools for
+                well-informed investments.
+            </p>
+            <button type="button" class="flex hero-btn items-center">
+                <p>TRY IT NOW</p>
+                <img src="./user/themes/decor/images/circle-right-arrow.png" alt="Circle Right Arrow" />
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="about flex">
+    <div class="flex flex-col text-content">
+        <h1 class="about-title">About Us</h1>
+        <h1 class="about-heading">
+            Insightful Analysis & Commentary On Trading Elevate Your Trades
+        </h1>
+        <p class="about-details">
+            Lorem ipsum dolor sit amet consectetur. Consectetur porta quam donec
+            libero. Nunc lobortis turpis elementum nunc viverra. Diam eget ornare
+            consequat eget id sagittis est ultrices. Adipiscing in fermentum enim
+            lorem odio amet pulvinar. Ultricies facilisis nibh nibh enim aliquam
+            enim condimentum velit quis.
+            <br />
+            <br />
+            Et id nibh urna adipiscing at nullam. Sed ornare pellentesque volutpat
+            rhoncus libero est volutpat pharetra. Ipsum est nunc ipsum ultricies
+            id congue. Faucibus feugiat mauris lorem tellus egestas facilisi. Eget
+            lobortis molestie mauris ullamcorper duis.
+        </p>
+    </div>
+    <div class="img-content"></div>
+</section>
+
+<section class="pricing flex flex-col items-center">
+    <h1 class="pricing-heading">Pricing</h1>
+    <div class="grid pricing-table">
+        <div class="flex flex-col items-center pricing-card">
+            <h1 class="pricing-title">Silver Package</h1>
+            <h1 class="pricing-value">€20/<span>Month</span></h1>
+            <p class="pricing-trial-duration">3 days trail/3€</p>
+            <div class="flex flex-col pricing-features">
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Track your finances on one dashboard</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Detailed reports and graphs</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Experience a risk-free environment</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Comprehensive help center</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p class="line-through">Support Available</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Setup of reminder emails</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Progress tracking</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Early access to new features</p>
+                </div>
+            </div>
+            <button type="button" class="pricing-btn">GET STARTED</button>
+        </div>
+        <div class="flex flex-col items-center pricing-card">
+            <h1 class="pricing-title">Silver Package</h1>
+            <h1 class="pricing-value">€20/<span>Month</span></h1>
+            <p class="pricing-trial-duration">3 days trail/3€</p>
+            <div class="flex flex-col pricing-features">
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Track your finances on one dashboard</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Detailed reports and graphs</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Experience a risk-free environment</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Comprehensive help center</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p class="line-through">Support Available</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Setup of reminder emails</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Progress tracking</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Early access to new features</p>
+                </div>
+            </div>
+            <button type="button" class="pricing-btn">GET STARTED</button>
+        </div>
+        <div class="flex flex-col items-center pricing-card">
+            <h1 class="pricing-title">Silver Package</h1>
+            <h1 class="pricing-value">€20/<span>Month</span></h1>
+            <p class="pricing-trial-duration">3 days trail/3€</p>
+            <div class="flex flex-col pricing-features">
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Track your finances on one dashboard</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Detailed reports and graphs</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Experience a risk-free environment</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Comprehensive help center</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p class="line-through">Support Available</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Setup of reminder emails</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/cancel.png" alt="Cancel" />
+                    <p class="line-through">Progress tracking</p>
+                </div>
+                <div class="flex pricing-feature items-center">
+                    <img src="./user/themes/decor/images/check.png" alt="Check" />
+                    <p>Early access to new features</p>
+                </div>
+            </div>
+            <button type="button" class="pricing-btn">GET STARTED</button>
+        </div>
+    </div>
+</section>
+";}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1703703815;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1703702818;}}s:8:"checksum";s:32:"164a59f52085a559624a6d89fc89da4e";}}

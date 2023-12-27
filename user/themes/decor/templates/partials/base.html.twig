@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ (grav.language.getActive ?: grav.config.site.default_lang)|e }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e }} | {% endif %}{{ site.title|e }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}" />
+    <link rel="canonical" href="{{ page.canonical(true)|e }}" />
+{% endblock head %}
+
+{% block stylesheets %}
+    {% do assets.addCss('theme://css/style.css', 98) %}
+    {% if page.route == '/' %}
+        {% do assets.addCss('theme://css/home.css', 97) %}
+    {% endif %}
+
+    {% if page.route == '/about-us' %}
+        {% do assets.addCss('theme://css/about.css', 96) %}
+    {% endif %}
+{% endblock %}
+
+{% block javascripts %}
+    {% do assets.addJs('jquery', 100) %}
+{% endblock %}
+
+{% block assets deferred %}
+    {{ assets.css()|raw }}
+    {{ assets.js()|raw }}
+{% endblock %}
+</head>
+<body id="top" class="{{ page.header.body_classes|e }}">
+
+{% block header %}
+    <header>
+        <nav class="nav flex justify-between items-center" role="navigation">
+            {% block mobile_navigation %}
+            <div class="mobile-menu">
+                <input type="checkbox" class="menu-checkbox" />
+                <div class="menu-icon"></div>
+                <div class="flex flex-col mobile-menus">
+                    {% include 'partials/navigation.html.twig' %}
+                </div>
+            </div>
+            {% endblock %}
+            <a href="{{ home_url|e }}">
+                <img src="{{ url('theme://images/logo.svg')|e }}" width="128" height="65" alt="Logo" />
+            </a>
+            {% block header_navigation %}
+            <div class="nav-links flex">
+                {% include 'partials/navigation.html.twig' %}
+            </div>
+            {% endblock %}
+        </nav>
+    </header>
+{% endblock %}
+
+{% block body %}
+    {% block content %}{% endblock %}
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <p>Copyright © Lorem Ipsum 2023. | All rights reserved.</p>
+    </footer>
+{% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom')|raw }}
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+.heading {
+    margin: 42px 100px;
+    row-gap: 24px;
+}
+
+.heading .title {
+    color: var(--higlighted-color);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.heading .breadcrumbs {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.heading .breadcrumbs span {
+    color: var(--higlighted-color);
+}
+
+.section-one-container {
+    background-color: #fafafa;
+    padding: 120px 100px;
+}
+
+.section-one {
+    column-gap: 125px;
+}
+
+.text-content {
+    flex: 1;
+    padding: 31px 0;
+}
+
+.text-content h1 {
+    color: var(--primary-text-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+    margin-bottom: 42px;
+}
+
+.text-content p {
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.img-content {
+    width: 100%;
+    height: 494px;
+    flex: 1;
+	background-image: url(../images/about-us-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.section-two {
+    margin: 120px 100px;
+    column-gap: 125px;
+}
+
+.section-two .img-content {
+    background-image: url(../images/about-us-img-2.png);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .heading {
+        margin: 50px;
+    }
+
+    .heading .title {
+        color: var(--higlighted-color);
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    
+    .section-one-container {
+        padding: 30px;
+    }
+
+    .section-one {
+        flex-direction: column;
+    }
+
+    .section-two {
+        margin: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .text-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text-content p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .img-content {
+        flex: unset
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .section-one-container {
+        padding: 50px;
+    }
+
+    .section-one {
+        flex-direction: column;
+    }
+
+    .section-two {
+        margin: 50px 50px 80px;
+        flex-direction: column-reverse;
+    }
+
+    .text-content p {
+        text-align: justify;
+    }
+
+    .img-content {
+        flex: unset
+    }
+}

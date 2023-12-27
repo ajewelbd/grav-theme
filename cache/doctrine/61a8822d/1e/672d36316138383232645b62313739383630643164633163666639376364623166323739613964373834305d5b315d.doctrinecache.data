@@ -1,0 +1,173 @@
+1704305709
+a:2:{s:7:"content";s:9884:"<section class="hero">
+        <img src="(theme://images/overlay.png)" class="hero-image" alt="Hero Image" />
+        <div class="hero-content">
+            <div class="hero-text flex flex-col items-center">
+                <div class="flex flex-col items-center hearo-headings">
+                    <h1 class="hero-heading">
+                        Master Your <span class="higlighted-text">Money:</span>Empowering
+                    </h1>
+                    <h1 class="hero-heading">
+                        Your <span class="higlighted-text">Financial</span>Journey
+                    </h1>
+                </div>
+                <p class="hero-details">
+                    Our objective is to provide a user-friendly platform that delivers
+                    real-time data, advanced analytics, and predictive tools for
+                    well-informed investments.
+                </p>
+                <button type="button" class="flex hero-btn items-center">
+                    <p>TRY IT NOW</p>
+                    <img src="assets/circle-right-arrow.png" alt="Circle Right Arrow" />
+                </button>
+            </div>
+        </div>
+    </section>
+<pre><code>&lt;div class="about flex"&gt;
+    &lt;div class="flex flex-col text-content"&gt;
+        &lt;h1 class="about-title"&gt;About Us&lt;/h1&gt;
+        &lt;h1 class="about-heading"&gt;
+            Insightful Analysis &amp; Commentary On Trading Elevate Your Trades
+        &lt;/h1&gt;
+        &lt;p class="about-details"&gt;
+            Lorem ipsum dolor sit amet consectetur. Consectetur porta quam donec
+            libero. Nunc lobortis turpis elementum nunc viverra. Diam eget ornare
+            consequat eget id sagittis est ultrices. Adipiscing in fermentum enim
+            lorem odio amet pulvinar. Ultricies facilisis nibh nibh enim aliquam
+            enim condimentum velit quis.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Et id nibh urna adipiscing at nullam. Sed ornare pellentesque volutpat
+            rhoncus libero est volutpat pharetra. Ipsum est nunc ipsum ultricies
+            id congue. Faucibus feugiat mauris lorem tellus egestas facilisi. Eget
+            lobortis molestie mauris ullamcorper duis.
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="img-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Pricing Section --&gt;
+&lt;div class="pricing flex flex-col items-center"&gt;
+    &lt;h1 class="pricing-heading"&gt;Pricing&lt;/h1&gt;
+    &lt;div class="grid pricing-table"&gt;
+        &lt;div class="flex flex-col items-center pricing-card"&gt;
+            &lt;h1 class="pricing-title"&gt;Silver Package&lt;/h1&gt;
+            &lt;h1 class="pricing-value"&gt;€20/&lt;span&gt;Month&lt;/span&gt;&lt;/h1&gt;
+            &lt;p class="pricing-trial-duration"&gt;3 days trail/3€&lt;/p&gt;
+            &lt;div class="flex flex-col pricing-features"&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Track your finances on one dashboard&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Detailed reports and graphs&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Experience a risk-free environment&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Comprehensive help center&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p class="line-through"&gt;Support Available&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Setup of reminder emails&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Progress tracking&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Early access to new features&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;button type="button" class="pricing-btn"&gt;GET STARTED&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="flex flex-col items-center pricing-card"&gt;
+            &lt;h1 class="pricing-title"&gt;Silver Package&lt;/h1&gt;
+            &lt;h1 class="pricing-value"&gt;€20/&lt;span&gt;Month&lt;/span&gt;&lt;/h1&gt;
+            &lt;p class="pricing-trial-duration"&gt;3 days trail/3€&lt;/p&gt;
+            &lt;div class="flex flex-col pricing-features"&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Track your finances on one dashboard&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Detailed reports and graphs&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Experience a risk-free environment&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Comprehensive help center&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p class="line-through"&gt;Support Available&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Setup of reminder emails&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Progress tracking&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Early access to new features&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;button type="button" class="pricing-btn"&gt;GET STARTED&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="flex flex-col items-center pricing-card"&gt;
+            &lt;h1 class="pricing-title"&gt;Silver Package&lt;/h1&gt;
+            &lt;h1 class="pricing-value"&gt;€20/&lt;span&gt;Month&lt;/span&gt;&lt;/h1&gt;
+            &lt;p class="pricing-trial-duration"&gt;3 days trail/3€&lt;/p&gt;
+            &lt;div class="flex flex-col pricing-features"&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Track your finances on one dashboard&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Detailed reports and graphs&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Experience a risk-free environment&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Comprehensive help center&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p class="line-through"&gt;Support Available&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Setup of reminder emails&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/cancel.png" alt="Cancel" /&gt;
+                    &lt;p class="line-through"&gt;Progress tracking&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="flex pricing-feature items-center"&gt;
+                    &lt;img src="assets/check.png" alt="Check" /&gt;
+                    &lt;p&gt;Early access to new features&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;button type="button" class="pricing-btn"&gt;GET STARTED&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>";s:12:"content_meta";N;}

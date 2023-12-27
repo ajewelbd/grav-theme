@@ -1,0 +1,26 @@
+1703701665
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:8:{s:4:"root";b:0;s:11:"storage_key";s:7:"01.home";s:6:"header";a:2:{s:5:"title";s:4:"Home";s:12:"body_classes";s:23:"title-center title-h1h2";}s:11:"frontmatter";s:49:"title: Home
+body_classes: title-center title-h1h2";s:8:"markdown";s:1178:"    {{ "<section class="hero">
+        <img src="assets/overlay.png" class="hero-image" alt="Hero Image" />
+        <div class="hero-content">
+            <div class="hero-text flex flex-col items-center">
+                <div class="flex flex-col items-center hearo-headings">
+                    <h1 class="hero-heading">
+                        Master Your <span class="higlighted-text">Money:</span>Empowering
+                    </h1>
+                    <h1 class="hero-heading">
+                        Your <span class="higlighted-text">Financial</span>Journey
+                    </h1>
+                </div>
+                <p class="hero-details">
+                    Our objective is to provide a user-friendly platform that delivers
+                    real-time data, advanced analytics, and predictive tools for
+                    well-informed investments.
+                </p>
+                <button type="button" class="flex hero-btn items-center">
+                    <p>TRY IT NOW</p>
+                    <img src="assets/circle-right-arrow.png" alt="Circle Right Arrow" />
+                </button>
+            </div>
+        </div>
+    </section>"|raw }}";s:4:"slug";s:4:"home";s:4:"name";s:10:"default.md";s:8:"ordering";b:1;}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1703701065;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1703701065;}}s:8:"checksum";s:32:"0650216566dafba4c8517af4d6412163";}}
